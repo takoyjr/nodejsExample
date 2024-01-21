@@ -1,0 +1,30 @@
+.authorization {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.authorization-window {
+    width: 25%;
+    height: auto;
+    padding: 1rem;
+    border: none;
+    background-color: #212121;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
+    color: #fff;
+}
+
+.authorization-form {
+    display: flex;
+    flex-direction: column;   
+}
+
+.label-container {
+    margin:1rem 0;
+}
+.authorization-form label {
+    display: flex;
+    flex-direction: column;
+}

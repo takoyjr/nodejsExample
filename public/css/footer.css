@@ -1,0 +1,14 @@
+footer {
+    background: #18171E;
+}
+
+.footer_info_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_info_col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

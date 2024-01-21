@@ -1,0 +1,43 @@
+input {
+    cursor: auto;
+    outline: none;
+}
+.search-inp {
+    background-color: #424242;
+    border:none;
+    color:#fff;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.5s ease-out;
+}
+    .search-inp:hover {
+        background-color: #616161;
+    }
+    .search-inp::placeholder {
+        color: #9E9E9E;
+    }
+
+.authReg-inp {
+    background-color: unset;
+    border:none;
+    color:#fff;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+    transition: all 0.5s ease-out;
+    border-bottom:1px solid #434343;
+}
+
+.submit-inp {
+    margin: 0.5rem auto;
+    border-radius: 1rem;
+    width: fit-content;
+    border: 1px solid #434343;
+    background-color: unset;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+    .submit-inp:hover {
+        background-color:#434343;
+    }

@@ -1,0 +1,39 @@
+button {
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.menu-btn {
+    position: relative;
+    border-radius: 50%;
+    background: #424242;
+    border:none;
+    transition: all 0.5s ease-out;
+}
+    .menu-btn:hover {
+        background: radial-gradient(#424242, #616161);
+    }
+
+.header_chat-btn {
+    position: relative;
+    border-radius: 50%;
+    border:none;
+    background-color: unset;
+    transition: all 0.5s ease-out;
+}
+    .header_chat-btn:hover {
+        background-color: #616161;
+    }
+
+.message-btn {
+    border-radius: 50%;
+    position: relative;
+    border: none;
+    background-color: unset;
+    transition: all 0.5s ease-out;
+}
+    .message-btn:hover {
+        background-color: #616161;
+    }
